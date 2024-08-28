@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mobile Legends</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <!-- Font Awesome 5.15.4 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header>
+        <div class="jumbotron">
+            <h1>Seputar Mobile Legends</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="role.html">Role</a></li>
+                <li><a href="hero.html">Hero</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <div id="content">
+            <article class="card">
+                <h2>Hero</h2>
+                <p>
+                    Hero adalah karakter unik yang hanya dapat dimainkan oleh 1 player pada setiap ronde permainan.
+                    Hero dapat dibeli dengan melakukan Top Up diamond, atau dengan menggunakan ticket dan Battle Point.
+                    Setiap hero memiliki 4 skill, dengan 1 passive skill dan 3 active skill.
+                </p>
+            </article>
+            <article class="card">
+                <h2>Marksman</h2>
+                <div class="slides">
+                    <div class="slides1">
+                        <img src="assets/image/marksman.jpg" class="featured-image" alt="marksman heroes">
+                    </div>
+                    <div class="slides1">
+                        <img src="assets/image/claude.jpg" class="featured-image" alt="claude">
+                    </div>
+                    <div class="slides1">
+                        <img src="assets/image/granger.jpg" class="featured-image" alt="granger">
+                    </div>
+                    <div class="slides1">
+                        <img src="assets/image/karrie.jpg" class="featured-image" alt="karrie">
+                    </div>
+                    <div class="slides1">
+                        <img src="assets/image/lesley.jpg" class="featured-image" alt="lesley">
+                    </div>
+                    <div class="navigation">
+                        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                    </div>
+                </div>
+
+                <p>
+                    Hero tipe ini memiliki skill dan bassic attack yang tinggi.
+                    Selain itu, Marksman memiliki jangkauan skill area yang besar.
+                    Hero ini memiliki peran sebagai penyerang utama dalam permainan.
+                </p>
+                <p>
+                    Namun, dari segi defense hero ini kurang.
+                    Jadi diperlukan siasat agar tidak mudah dibunuh saat menggunakan hero tipe ini.
+                </p>
+            </article>
+            <article class="card">
+                <h2>Tank</h2>
+                <div class="slides">
+                    <div class="slides2">
+                        <img src="assets/image/tank.jpg" class="featured-image" alt="tank heroes">
+                    </div>
+                    <div class="slides2">
+                        <img src="assets/image/tigreal.jpg" class="featured-image" alt="tigreal">
+                    </div>
+                    <div class="slides2">
+                        <img src="assets/image/johnson.jpg" class="featured-image" alt="johnson">
+                    </div>
+                    <div class="slides2">
+                        <img src="assets/image/grock.jpg" class="featured-image" alt="grock">
+                    </div>
+                    <div class="navigation">
+                        <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                    </div>
+                </div>
+
+                <p>
+                    Tipe hero ini memiliki base HP dan Armor yang besar sehingga dapat menerima damage yang besar dari
+                    lawan untuk melindungi tim.
+                    Hero ini sangat cocok berada di garis depan untuk membuka jalan bagi rekan setimnya.
+                </p>
+                <p>
+                    Walaupun memiliki pertahanan yang kuat, hero tank tak memiliki damage yang mumpuni.
+                    Walaupun begitu, hero ini mampu memecah belah formasi lawan.
+                </p>
+            </article>
+            <article class="card">
+                <h2>Mage</h2>
+                <div class="slides">
+                    <div class="slides3">
+                        <img src="assets/image/mage.png" class="featured-image" alt="mage heroes">
+                    </div>
+                    <div class="slides3">
+                        <img src="assets/image/vale.jpg" class="featured-image" alt="vale">
+                    </div>
+                    <div class="slides3">
+                        <img src="assets/image/eudora.jpg" class="featured-image" alt="eudora">
+                    </div>
+                    <div class="slides3">
+                        <img src="assets/image/pharsa.jpg" class="featured-image" alt="pharsa">
+                    </div>
+                    <div class="slides3">
+                        <img src="assets/image/valentina.jpg" class="featured-image" alt="valentina">
+                    </div>
+                    <div class="slides3">
+                        <img src="assets/image/harley.jpg" class="featured-image" alt="harley">
+                    </div>
+                    <div class="navigation">
+                        <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+                    </div>
+                </div>
+
+                <p>
+                    Hero dengan tipe Mage sering membuat lawan takut.
+                    Hal itu dikarenakan hero ini memiliki skill dengan damage yang besar.
+                    Dengan dibekali efek ability yang tinggi, hero ini dapat melakukan quick kill kepada hero lawan.
+                    Hero satu ini kerap dijadikan petarung untuk mendukung hero lainnya saat menyerang.
+                </p>
+            </article>
+            <article class="card">
+                <h2>Support</h2>
+                <div class="slides">
+                    <div class="slides4">
+                        <img src="assets/image/support.jpg" class="featured-image" alt="support heroes">
+                    </div>
+                    <div class="slides4">
+                        <img src="assets/image/mathilda.jpg" class="featured-image" alt="mathilda">
+                    </div>
+                    <div class="slides4">
+                        <img src="assets/image/estes.jpg" class="featured-image" alt="estes">
+                    </div>
+                    <div class="slides4">
+                        <img src="assets/image/rafaela.jpg" class="featured-image" alt="rafaela">
+                    </div>
+                    <div class="slides4">
+                        <img src="assets/image/angela.jpg" class="featured-image" alt="angela">
+                    </div>
+                    <div class="slides4">
+                        <img src="assets/image/diggie.jpg" class="featured-image" alt="diggie">
+                    </div>
+                    <div class="navigation">
+                        <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+                    </div>
+                </div>
+
+                <p>
+                    Tipe hero ini memiliki skill yang berguna untuk menjaga tim serta membantu tim ketika sedang
+                    bertempur.
+                </p>
+            </article>
+            <article class="card">
+                <h2>Assassin</h2>
+                <div class="slides">
+                    <div class="slides5">
+                        <img src="assets/image/assassin.jpeg" class="featured-image" alt="assassin heroes">
+                    </div>
+                    <div class="slides5">
+                        <img src="assets/image/natalia.jpg" class="featured-image" alt="natalia">
+                    </div>
+                    <div class="slides5">
+                        <img src="assets/image/ling.jpg" class="featured-image" alt="ling">
+                    </div>
+                    <div class="navigation">
+                        <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+                    </div>
+                </div>
+
+                <p>
+                    Hero ini memiliki damage yang cukup tinggi dan sangat lincah dalam permainan.
+                    Belum lagi, hero ini memiliki skill yang mampu membuat karakternya kebal terhadap serangan lawan
+                    serta dapat melakukan lock kepada lawan.
+                </p>
+            </article>
+        </div>
+        <aside>
+            <article class="profile card">
+                <header>
+                    <h2>Tentang Penulis</h2>
+                    <p class="text-center">Delbert Emmanuel</p>
+                    <figure>
+                        <img src="assets/image/3x4.jpg">
+                    </figure>
+                </header>
+                <p>
+                    Hi! My name is Delbert Emmanuel.
+                    I was born in Palembang on August 29 2003.
+                    I am the first child of three.
+                    Music is one of my hobbies.
+                    My dream is to be a Web Developer.
+                </p>
+
+                <ul>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </article>
+        </aside>
+    </main>
+    <footer>
+        <p class="text-center">Copyright &#169; 2024 Delbert Emmanuel</p>
+    </footer>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
